@@ -17,7 +17,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(2000)]
         public void TestTryUntilWithTryInterval()
         {
             var times = 5;

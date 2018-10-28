@@ -18,7 +18,7 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
+        
         public void TestOnFailureWithNoParameter()
         {
             var times = 5;
@@ -34,7 +34,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
         public void TestOnFailureAfterFiveTimes()
         {
             var times = 5;
@@ -51,7 +50,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
         public void TestOnFailureShouldNotFireIfSucceedAtFirstTime()
         {
             var times = 0;
@@ -102,7 +100,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
         public void TestMultipleOnFailure()
         {
             var times = 5;

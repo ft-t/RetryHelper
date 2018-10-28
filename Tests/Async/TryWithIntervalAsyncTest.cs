@@ -18,7 +18,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(2000)]
         public async Task TestTryUntilWithTryIntervalAsync()
         {
             var times = 5;

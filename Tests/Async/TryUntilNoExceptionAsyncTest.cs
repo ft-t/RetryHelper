@@ -18,7 +18,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(2000)]
         public async Task TestTryUntilNoExceptionAfterFiveTimesAsync()
         {
             var times = 10;
@@ -33,7 +32,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(100)]
         public async Task TestTryUntilNoExceptionSuccessFirstTimeAsync()
         {
             var times = 0;
@@ -47,7 +45,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(2000)]
         public async Task TestTryUntilNoExceptionOfTypeAfterFiveTimesAsync()
         {
             var times = 10;
@@ -61,7 +58,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(2000)]
         public async Task TestTryUntilNoExceptionOfTypePassedAsParameterAfterFiveTimesAsync()
         {
             var times = 10;
@@ -75,7 +71,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(2000)]
         public void TestTryUntilNoExceptionOfTypeHavingOtherExceptionAsync()
         {
             var times = 10;
@@ -88,7 +83,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(2000)]
         public void TestTryUntilNoExceptionOfTypePassedAsParameterHavingOtherExceptionAsync()
         {
             var times = 10;

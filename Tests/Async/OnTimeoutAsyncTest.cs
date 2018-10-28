@@ -18,7 +18,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
         public async Task TestOnTimeoutShouldNotFireAsync()
         {
             var times = 5;
@@ -29,7 +28,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
         public void TestOnTimeoutWithNoParameterAsync()
         {
             var times = 5;
@@ -44,7 +42,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
         public void TestOnTimeoutAfterFiveTimesAsync()
         {
             var times = 5;
@@ -63,7 +60,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
         public void TestOnTimeoutAsyncAfterFiveTimesAsync()
         {
             var times = 5;
@@ -82,7 +78,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
         public void TestOnTimeoutAsyncWithNoParameterAsync()
         {
             var times = 5;
@@ -102,7 +97,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
         public void TestOnTimeoutWithTriedCountAsync()
         {
             var times = 5;
@@ -122,7 +116,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
         public void TestMultipleOnTimeoutAsync()
         {
             var times = 5;

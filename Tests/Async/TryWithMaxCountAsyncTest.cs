@@ -18,7 +18,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
         public async Task TestTryUntilWithMaxTryCountAsync()
         {
             var times = 5;
@@ -31,7 +30,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
         public void TestTryUntilWithMaxTryCountExceededAsync()
         {
             var times = 5;

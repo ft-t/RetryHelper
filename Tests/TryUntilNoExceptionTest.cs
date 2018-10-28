@@ -17,7 +17,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(2000)]
         public void TestTryUntilNoExceptionAfterFiveTimes()
         {
             var times = 10;
@@ -32,7 +31,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(100)]
         public void TestTryUntilNoExceptionSuccessFirstTime()
         {
             var times = 0;
@@ -46,7 +44,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(2000)]
         public void TestTryUntilNoExceptionOfTypeAfterFiveTimes()
         {
             var times = 10;
@@ -60,7 +57,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(2000)]
         public void TestTryUntilNoExceptionOfTypePassedAsParameterAfterFiveTimes()
         {
             var times = 10;
@@ -74,7 +70,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(2000)]
         public void TestTryUntilNoExceptionOfTypeHavingOtherException()
         {
             var times = 10;
@@ -88,7 +83,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(2000)]
         public void TestTryUntilNoExceptionOfTypePassedAsParameterHavingOtherException()
         {
             var times = 10;

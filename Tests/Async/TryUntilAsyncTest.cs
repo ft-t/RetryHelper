@@ -18,7 +18,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
         public async Task TestTryUntilAfterFiveTimesAsync()
         {
             var times = 5;
@@ -35,7 +34,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(100)]
         public async Task TestTryUntilSuccessFirstTimeAsync()
         {
             var times = 0;
@@ -52,7 +50,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
         public async Task TestTryAsyncUntilAfterFiveTimesAsync()
         {
             var times = 5;

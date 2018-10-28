@@ -17,7 +17,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1500)]
         public void TestTryUntilExpectedTime()
         {
             var expectedStopTime = DateTime.Now.AddSeconds(1);

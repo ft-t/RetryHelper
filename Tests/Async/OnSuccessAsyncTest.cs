@@ -18,7 +18,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
         public async Task TestOnSuccessWithNoParameterAsync()
         {
             var times = 5;
@@ -31,7 +30,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
         public async Task TestOnSuccessAfterFiveTimesAsync()
         {
             var times = 5;
@@ -47,7 +45,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
         public async Task TestOnSuccessAsyncWithNoParameterAsync()
         {
             var times = 5;
@@ -64,7 +61,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
         public async Task TestOnSuccessAsyncAfterFiveTimesAsync()
         {
             var times = 5;
@@ -82,7 +78,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
         public void TestOnSuccessShouldNotFireAsync()
         {
             var times = 5;
@@ -97,7 +92,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
         public async Task TestOnSuccessWithTriedCountAsync()
         {
             var times = 5;
@@ -114,7 +108,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(4000)]
         public async Task TestMultipleOnSuccessAsync()
         {
             var times = 5;

@@ -17,7 +17,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
         public void TestOnTimeoutShouldNotFire()
         {
             var times = 5;
@@ -28,7 +27,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
         public void TestOnTimeoutWithNoParameter()
         {
             var times = 5;
@@ -44,7 +42,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
         public void TestOnTimeoutAfterFiveTimes()
         {
             var times = 5;
@@ -64,7 +61,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
         public void TestOnTimeoutWithTriedCount()
         {
             var times = 5;
@@ -85,7 +81,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
         public void TestMultipleOnTimeout()
         {
             var times = 5;

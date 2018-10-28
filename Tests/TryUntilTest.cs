@@ -17,7 +17,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
         public void TestTryUntilAfterFiveTimes()
         {
             var times = 5;
@@ -31,7 +30,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(100)]
         public void TestTryUntilSuccessFirstTime()
         {
             var times = 0;

@@ -18,7 +18,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1500)]
         public async Task TestTryUntilExpectedTimeAsync()
         {
             var expectedStopTime = DateTime.Now.AddSeconds(1);
@@ -29,7 +28,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1500)]
         public async Task TestTryAsyncUntilExpectedTimeAsync()
         {
             var expectedStopTime = DateTime.Now.AddSeconds(1);

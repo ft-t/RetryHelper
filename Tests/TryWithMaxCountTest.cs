@@ -17,7 +17,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
         public void TestTryUntilWithMaxTryCount()
         {
             var times = 5;
@@ -30,7 +29,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(1000)]
         public void TestTryUntilWithMaxTryCountExceeded()
         {
             var times = 5;

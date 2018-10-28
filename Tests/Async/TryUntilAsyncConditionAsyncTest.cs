@@ -18,7 +18,6 @@ namespace Tests
         }
 
         [Test]
-        [Timeout(500)]
         public async Task TestTryUntilAsyncCondition()
         {
             var times = 5;
